@@ -23,7 +23,7 @@
     [self.view addSubview:btn];
     btn.backgroundColor = [UIColor redColor];
     [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
-    // Do any additional setup after loading the view, typically from a nib.
+    // 修改了
     [self allFont];
     [self addLabel];
 }
